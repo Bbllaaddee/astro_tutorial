@@ -21,7 +21,7 @@ import '../styles/posts.css';
   <footer>
     <div class="tags">
       {frontmatter.tags.map(tag => (
-        <a href="">#{tag}</a>
+        <a href={`/tags/${tag}`}>#{tag}</a>
       ))}
     </div>
   </footer>
